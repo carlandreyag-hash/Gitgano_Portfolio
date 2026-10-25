@@ -1,6 +1,7 @@
 import projects from './projectCatalog';
 import { ProjectPreview } from './ProjectPreview';
 import { useState } from 'react';
+import { assetUrl } from './assetUrl';
 
 export function Landing({ onSelect }: { onSelect: (id: string) => void }) {
   const [offset, setOffset] = useState(0);
@@ -14,13 +15,14 @@ export function Landing({ onSelect }: { onSelect: (id: string) => void }) {
     <div className="fan-controls"><button type="button" aria-label="Previous projects" onClick={() => setOffset(previous => previous === 0 ? Math.floor((ordered.length - 1) / 4) * 4 : previous - 4)}>←</button><p role="status">PROJECT SET {Math.floor(offset / 4) + 1} <span>/ {Math.ceil(ordered.length / 4)}</span></p><button type="button" aria-label="Next projects" onClick={() => setOffset(previous => previous + 4 >= ordered.length ? 0 : previous + 4)}>→</button></div>
     <div className="card-fan" aria-label="Explore projects and profile">
       {featured.slice(0, 2).map((project, index) => <a key={project.id} className={`fan-card fan-position-${index} fan-project fan-color-${index}`} href={`#project-${project.id}`} onClick={() => onSelect(project.id)}><span className="fan-card-kicker">PROJECT / 0{index + 1}</span><ProjectPreview project={project} /><span className="fan-card-bottom"><strong>{project.name}</strong><span aria-hidden="true">↗</span></span><span className="fan-category">{project.category} · {project.tags.slice(0, 2).join(' / ')}</span></a>)}
-      <a className="fan-card fan-profile fan-position-2" href="#about" aria-label="View Carl Andrey Gitgano’s profile"><img src="/images/carl-andrey-gitgano.jpg" alt="Carl Andrey Gitgano" width="1536" height="2048" /><span className="profile-overlay"><small>THE PERSON BEHIND THE CODE</small><strong>Carl Andrey<br />Gitgano <span aria-hidden="true">↗</span></strong></span></a>
+      <a className="fan-card fan-profile fan-position-2" href="#about" aria-label="View Carl Andrey Gitgano’s profile"><img src={assetUrl('/images/carl-andrey-gitgano.jpg')} alt="Carl Andrey Gitgano" width="1536" height="2048" /><span className="profile-overlay"><small>THE PERSON BEHIND THE CODE</small><strong>Carl Andrey<br />Gitgano <span aria-hidden="true">↗</span></strong></span></a>
       {featured.slice(2, 4).map((project, index) => <a key={project.id} className={`fan-card fan-position-${index + 3} fan-project fan-color-${index + 2}`} href={`#project-${project.id}`} onClick={() => onSelect(project.id)}><span className="fan-card-kicker">PROJECT / 0{index + 3}</span><ProjectPreview project={project} /><span className="fan-card-bottom"><strong>{project.name}</strong><span aria-hidden="true">↗</span></span><span className="fan-category">{project.category} · {project.tags.slice(0, 2).join(' / ')}</span></a>)}
     </div>
     <a className="profile-seal" href="#about" aria-label="Meet Carl Andrey Gitgano"><span aria-hidden="true">↗</span><strong>ME</strong><small>THE PERSON BEHIND THE CODE</small></a>
     <div className="editorial-bottom"><p>Ideas, brought to life through code.</p><a href="#work" onClick={() => onSelect('')}>EXPLORE ALL {projects.length} PROJECTS <span aria-hidden="true">↗</span></a><a href="#about">ME <span aria-hidden="true">↗</span></a></div>
   </section>;
 }
+
 
 
 
