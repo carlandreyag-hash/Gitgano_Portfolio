@@ -1,0 +1,535 @@
+[
+  {
+    "id": "20",
+    "name": "LibroSmart",
+    "folder": "LibroSmart",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "LibroSmart is a cross-platform library application that helps readers explore a searchable book catalog, filter by category and availability, and view book details. Built with React Native, Expo, and Firebase authentication, it combines account access with a catalog powered by local preview data.",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "name": "APP",
+    "folder": "APP_REACTNATIVE",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "30",
+    "name": "Attendance",
+    "folder": "practice",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "3",
+    "name": "Barangay Medicine Inventory System",
+    "folder": "Barangay Medicine Inventory System",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "4",
+    "name": "BinWatch",
+    "folder": "BinWatch",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "BinWatch is a mobile waste-management prototype that brings bin discovery, waste-sorting guidance, and incident reporting into one place. Its map interface and eco challenges explore how technology can encourage more responsible disposal habits.",
+    "featured": true
+  },
+  {
+    "id": "5",
+    "name": "calculator",
+    "folder": "calculator",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "6",
+    "name": "calculator",
+    "folder": "calculator2.0",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "7",
+    "name": "CALCULATOR",
+    "folder": "calculator3.0",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "9",
+    "name": "CollabTrack",
+    "folder": "CollabTrack",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "CollabTrack is a team-workspace prototype for organizing project tasks, assignments, priorities, and deadlines. With document handling and locally persisted project data, it explores how a mobile interface can help teams keep their work organized between sessions.",
+    "featured": true
+  },
+  {
+    "id": "10",
+    "name": "DAVE CALCULATOR",
+    "folder": "DAVE MASONG",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "17",
+    "name": "Demo",
+    "folder": "Gitgano_ReactNative",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "27",
+    "name": "Demo",
+    "folder": "New folder",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "11",
+    "name": "DOSEVIA",
+    "folder": "DOSEVIA",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "DOSEVIA is a mobile medication-tracking application designed to help users organize their medication routines. It combines local data persistence with scheduled reminders and snooze support on supported native builds, giving users a focused way to manage dose reminders.",
+    "featured": true
+  },
+  {
+    "id": "12",
+    "name": "EcoPulse",
+    "folder": "EcoPulse",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "13",
+    "name": "EDUGO",
+    "folder": "EDUGO",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "14",
+    "name": "EDURA",
+    "folder": "EDURA",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "15",
+    "name": "FoodTrack",
+    "folder": "FoodTrack",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "16",
+    "name": "Gitgano Cal",
+    "folder": "Gitgano's Cal",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "18",
+    "name": "HotelManagement",
+    "folder": "Hotel Management System",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "21",
+    "name": "LAFS",
+    "folder": "LOST and Found System",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "34",
+    "name": "LAFS",
+    "folder": "SADD",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "19",
+    "name": "LFS",
+    "folder": "LFS",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "1",
+    "name": "LOST AND FOUND",
+    "folder": "333",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "33",
+    "name": "LOST AND FOUND SYSTEM",
+    "folder": "S10",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "0",
+    "name": "LOST FOUND SYSTEM",
+    "folder": "123",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase",
+      "Supabase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase, Supabase.",
+    "featured": false
+  },
+  {
+    "id": "22",
+    "name": "LOTWISE",
+    "folder": "LOTWISE",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "23",
+    "name": "Markter",
+    "folder": "Market",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "24",
+    "name": "MERA",
+    "folder": "MERA_CALCULATOR",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "26",
+    "name": "MOODY",
+    "folder": "MOODY",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "8",
+    "name": "MyCalculator",
+    "folder": "calculator_reactnative",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "29",
+    "name": "NGL",
+    "folder": "NGL",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "32",
+    "name": "RentEase",
+    "folder": "RentEase",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "RentEase is a rental-management prototype with separate interfaces for landlords and tenants. Property views, payment records, and maintenance-request screens demonstrate how a shared application can organize common rental workflows around different user roles.",
+    "featured": true
+  },
+  {
+    "id": "28",
+    "name": "SHOP",
+    "folder": "New folder (3)",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "35",
+    "name": "Shopify",
+    "folder": "shopify",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "31",
+    "name": "Smart",
+    "folder": "ReactNativeActivities",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "36",
+    "name": "Studora",
+    "folder": "Studora",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo, Firebase.",
+    "featured": false
+  },
+  {
+    "id": "37",
+    "name": "STUDY BUDDY",
+    "folder": "STUDY BUDY",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "38",
+    "name": "TraceMatch",
+    "folder": "TraceMatch",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "25",
+    "name": "Veyra",
+    "folder": "MIDTERM",
+    "tags": [
+      "React Native",
+      "Expo"
+    ],
+    "category": "Mobile",
+    "description": "A React Native mobile project built with React Native, Expo.",
+    "featured": false
+  },
+  {
+    "id": "local-39",
+    "name": "BakeTrack",
+    "folder": "BakeTrack",
+    "tags": [
+      "PHP"
+    ],
+    "category": "Web",
+    "description": "BakeTrack is a PHP web application for organizing bakery operations, from customers and products to ingredients, recipes, and orders. Its database-backed create, edit, and delete workflows connect everyday business records in one management interface.",
+    "featured": true
+  },
+  {
+    "id": "local-40",
+    "name": "codequest_v3",
+    "folder": "codequest_v3",
+    "tags": [
+      "PHP"
+    ],
+    "category": "Web",
+    "description": "A PHP web application from my local project collection.",
+    "featured": false
+  },
+  {
+    "id": "local-41",
+    "name": "WEB PORTFOLIO",
+    "folder": "WEB PORTFOLIO",
+    "tags": [
+      "PHP"
+    ],
+    "category": "Web",
+    "description": "A PHP web application from my local project collection.",
+    "featured": false
+  },
+  {
+    "id": "local-42",
+    "name": "XAMPP",
+    "folder": "XAMPP",
+    "tags": [
+      "PHP"
+    ],
+    "category": "Web",
+    "description": "A PHP web application from my local project collection.",
+    "featured": false
+  }
+]

@@ -1,0 +1,1 @@
+Add Carl's portrait here as `carl-andrey-gitgano.jpg`. The home page will display it automatically after refreshing. A vertical portrait works best; the image is cropped to fit its frame. Until provided, the page shows a clearly labeled initials placeholder.

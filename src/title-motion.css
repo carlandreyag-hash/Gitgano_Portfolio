@@ -1,0 +1,16 @@
+/* Split ribbon lettering based on the supplied recording. */
+.portfolio-title{overflow:visible;--title-cycle:3.2s}
+.portfolio-title h1{display:flex;align-items:center;justify-content:center;gap:0;white-space:nowrap;transform:rotate(-6deg);animation:none;line-height:.9;letter-spacing:-.065em;font-size:clamp(64px,11.8vw,158px)}
+.title-half{position:relative;display:grid;perspective:700px;transform-style:preserve-3d}
+.title-half>span{grid-area:1/1;display:block;backface-visibility:hidden;will-change:transform;transform-origin:center}
+.title-solid{position:relative;z-index:2;color:#101110;-webkit-text-stroke:0;animation:ribbon-solid-left var(--title-cycle) ease-in-out infinite}
+.title-outline{position:relative;z-index:1;color:transparent;-webkit-text-stroke:1px #101110;animation:ribbon-outline-left var(--title-cycle) ease-in-out infinite}
+.title-half-right .title-solid{animation-name:ribbon-solid-right}
+.title-half-right .title-outline{animation-name:ribbon-outline-right}
+.portfolio-title .red-block{animation:none;transform:none;background:#e44132}
+@keyframes ribbon-solid-left{0%,100%{transform:translateY(-.14em) skewY(4deg) scaleY(.92)}50%{transform:translateY(.14em) skewY(-4deg) scaleY(1)}}
+@keyframes ribbon-solid-right{0%,100%{transform:translateY(.14em) skewY(4deg) scaleY(1)}50%{transform:translateY(-.14em) skewY(-4deg) scaleY(.92)}}
+@keyframes ribbon-outline-left{0%,100%{transform:translateY(.17em) skewY(4deg) scaleY(.9)}50%{transform:translateY(-.17em) skewY(-4deg) scaleY(.96)}}
+@keyframes ribbon-outline-right{0%,100%{transform:translateY(-.17em) skewY(4deg) scaleY(.96)}50%{transform:translateY(.17em) skewY(-4deg) scaleY(.9)}}
+@media(max-width:760px){.portfolio-title h1{font-size:12vw;letter-spacing:-.06em}.title-outline{-webkit-text-stroke:.8px #101110}}
+@media(prefers-reduced-motion:reduce){.title-half>span{animation:none;will-change:auto}.title-half-left .title-solid,.title-half-right .title-outline{transform:translateY(-.14em)}.title-half-left .title-outline,.title-half-right .title-solid{transform:translateY(.14em)}}

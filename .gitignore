@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.local
+.video-tools/
+.video-qa/
